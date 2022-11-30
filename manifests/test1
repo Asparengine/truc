@@ -1,0 +1,231 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Asparengine.github.io/truc/manifests/test1",
+  "@type" : "sc:Manifest",
+  "label" : "test label",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "des trucset des machins",
+    "@language" : "fr"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://07907f25-6906-424e-843a-f8a33ecad181",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "https://heidicon.ub.uni-heidelberg.de/manifest/iiif/762656/canvas/233832.json",
+      "@type" : "sc:Canvas",
+      "description" : "",
+      "height" : 1365,
+      "images" : [ {
+        "@id" : "https://heidicon.ub.uni-heidelberg.de/manifest/iiif/762656/annotation/233832-image.json",
+        "@type" : "oa:Annotation",
+        "attribution" : "Diathek des Instituts für Klassische Archäologie: To 575a\n\nFotograf bzw. Institut für Klassische Archäologie",
+        "license" : "https://www.deutsche-digitale-bibliothek.de/content/lizenzen/rv-fz",
+        "motivation" : "sc:painting",
+        "on" : "https://heidicon.ub.uni-heidelberg.de/manifest/iiif/762656/canvas/233832.json",
+        "resource" : {
+          "@id" : "https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9f201497-4b4a-4eae-b040-2155844ed11c/file/id/233832/file_version/name/huge",
+          "@type" : "dctypes:Image",
+          "format" : "image/tiff",
+          "height" : 1365,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://heidicon.ub.uni-heidelberg.de/iiif/2/762656%3A233832",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          },
+          "width" : 2000
+        }
+      } ],
+      "label" : "teil2_339",
+      "metadata" : [ ],
+      "width" : 2000,
+      "related" : {
+        "@id" : "https://heidicon.ub.uni-heidelberg.de/manifest/iiif/762656/manifest.json",
+        "label" : "Halle der Athener",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/canvas/592",
+      "label" : "592",
+      "height" : 4488,
+      "width" : 3064,
+      "@type" : "sc:Canvas",
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "@type" : "oa:Annotation",
+        "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/annotation/592",
+        "on" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/canvas/592",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "profile" : "https://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/i/?IIIF=/15/e0/da/6b/15e0da6b-9c29-47ce-aa3a-c0fc5ef47e54/iiif/b810046101_res_ms077_294v.tif"
+          },
+          "height" : 4488,
+          "width" : 3064,
+          "@type" : "dctypes:Image",
+          "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/i/?IIIF=/15/e0/da/6b/15e0da6b-9c29-47ce-aa3a-c0fc5ef47e54/iiif/b810046101_res_ms077_294v.tif/full/full/0/default.jpg"
+        }
+      } ],
+      "related" : {
+        "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/manifest",
+        "label" : "De situ orbis geographia",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/canvas/270",
+      "label" : "270",
+      "height" : 4512,
+      "width" : 3152,
+      "@type" : "sc:Canvas",
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "@type" : "oa:Annotation",
+        "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/annotation/270",
+        "on" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/canvas/270",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "profile" : "https://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/i/?IIIF=/15/e0/da/6b/15e0da6b-9c29-47ce-aa3a-c0fc5ef47e54/iiif/b810046101_res_ms077_134v.tif"
+          },
+          "height" : 4512,
+          "width" : 3152,
+          "@type" : "dctypes:Image",
+          "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/i/?IIIF=/15/e0/da/6b/15e0da6b-9c29-47ce-aa3a-c0fc5ef47e54/iiif/b810046101_res_ms077_134v.tif/full/full/0/default.jpg"
+        }
+      } ],
+      "related" : {
+        "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/manifest",
+        "label" : "De situ orbis geographia",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/canvas/71",
+      "label" : "71",
+      "height" : 4496,
+      "width" : 3152,
+      "@type" : "sc:Canvas",
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "@type" : "oa:Annotation",
+        "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/annotation/71",
+        "on" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/canvas/71",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "profile" : "https://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/i/?IIIF=/15/e0/da/6b/15e0da6b-9c29-47ce-aa3a-c0fc5ef47e54/iiif/b810046101_res_ms077_035r.tif"
+          },
+          "height" : 4496,
+          "width" : 3152,
+          "@type" : "dctypes:Image",
+          "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/i/?IIIF=/15/e0/da/6b/15e0da6b-9c29-47ce-aa3a-c0fc5ef47e54/iiif/b810046101_res_ms077_035r.tif/full/full/0/default.jpg"
+        }
+      } ],
+      "related" : {
+        "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/manifest",
+        "label" : "De situ orbis geographia",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/canvas/6",
+      "label" : "6",
+      "height" : 4520,
+      "width" : 3064,
+      "@type" : "sc:Canvas",
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "@type" : "oa:Annotation",
+        "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/annotation/6",
+        "on" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/canvas/6",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "profile" : "https://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/i/?IIIF=/15/e0/da/6b/15e0da6b-9c29-47ce-aa3a-c0fc5ef47e54/iiif/b810046101_res_ms077_003v.tif"
+          },
+          "height" : 4520,
+          "width" : 3064,
+          "@type" : "dctypes:Image",
+          "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/i/?IIIF=/15/e0/da/6b/15e0da6b-9c29-47ce-aa3a-c0fc5ef47e54/iiif/b810046101_res_ms077_003v.tif/full/full/0/default.jpg"
+        }
+      } ],
+      "related" : {
+        "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/manifest",
+        "label" : "De situ orbis geographia",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/canvas/163",
+      "label" : "163",
+      "height" : 4512,
+      "width" : 3128,
+      "@type" : "sc:Canvas",
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "@type" : "oa:Annotation",
+        "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/annotation/163",
+        "on" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/canvas/163",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "profile" : "https://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/i/?IIIF=/15/e0/da/6b/15e0da6b-9c29-47ce-aa3a-c0fc5ef47e54/iiif/b810046101_res_ms077_081r.tif"
+          },
+          "height" : 4512,
+          "width" : 3128,
+          "@type" : "dctypes:Image",
+          "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/i/?IIIF=/15/e0/da/6b/15e0da6b-9c29-47ce-aa3a-c0fc5ef47e54/iiif/b810046101_res_ms077_081r.tif/full/full/0/default.jpg"
+        }
+      } ],
+      "related" : {
+        "@id" : "https://cecilia.mediatheques.grand-albigeois.fr/iiif/107/manifest",
+        "label" : "De situ orbis geographia",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://iiif.harvardartmuseums.org/manifests/object/216687/canvas/canvas-43182343",
+      "@type" : "sc:Canvas",
+      "height" : 2550,
+      "images" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/216687/annotation/anno-43182343",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.harvardartmuseums.org/manifests/object/216687/canvas/canvas-43182343",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/43182343/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2550,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/43182343",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "width" : 1061
+        }
+      } ],
+      "label" : "1",
+      "otherContent" : [ {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/216687/list/43182343",
+        "@type" : "sc:AnnotationList"
+      } ],
+      "width" : 1061,
+      "related" : {
+        "@id" : "https://iiif.harvardartmuseums.org/manifests/object/216687",
+        "label" : "Young Man in a Blue Cloak",
+        "format" : ""
+      }
+    } ]
+  } ],
+  "structures" : [ ]
+}
